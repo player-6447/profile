@@ -47,7 +47,7 @@
   <img src="./icons/python.svg" alt="python" height="28px" style="vertical-align:top; margin:4px">
   <img src="./icons/neovim.svg" alt="neovim" height="28px" style="vertical-align:top; margin:4px">
   <img src="./icons/tmux.svg" alt="tmux" height="28px" style="vertical-align:top; margin:4px">
-  <img src="./icons/opencode.svg" alt="opencode" height="14px" style="vertical-align:bottom; margin:4px">
+  <img src="./icons/opencode.svg" alt="opencode" height="14px" style="vertical-align:top; margin:4px">
 </p>
 
 #### Cloud
