@@ -52,14 +52,24 @@
 
 #### Cloud
 
-| <img src="./icons/azure.svg" alt="azure" height="32"> | <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="32"> | <img src="./icons/aws.svg" alt="aws" height="32"> | <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="32"> | <img src="./icons/google-cloud.svg" alt="google-cloud" height="32"> | <img src="./icons/vsphere.svg" alt="vsphere" height="32"> | <img src="./icons/openstack.svg" alt="openstack" height="32"> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `Azure` | `Tencent Cloud` | `AWS` | `Alibaba Cloud` | `Google Cloud` | `vSphere` | `OpenStack` |
-
-<br>
+<p align="left">
+  <img src="./icons/azure.svg" alt="azure" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/aws.svg" alt="aws" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28px" style="vertical-align:top; margin:4px">
+  <img src="./icons/vsphere.svg" alt="vsphere" height="28px" style="vertical-align:top; margin:4px">
+  <img src="./icons/openstack.svg" alt="openstack" height="28px" style="vertical-align:top; margin:4px">
+</p>
 
 #### IaaS & PaaS
 
-| <img src="./icons/azure.svg" alt="azure" height="32"> | <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="32"> | <img src="./icons/aws.svg" alt="aws" height="32"> | <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="32"> | <img src="./icons/google-cloud.svg" alt="google-cloud" height="32"> | <img src="./icons/vsphere.svg" alt="vsphere" height="32"> | <img src="./icons/openstack.svg" alt="openstack" height="32"> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `Azure` | `Tencent Cloud` | `AWS` | `Alibaba Cloud` | `Google Cloud` | `vSphere` | `OpenStack` |
+<p align="left">
+  <img src="./icons/azure.svg" alt="azure" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/aws.svg" alt="aws" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height='28px' style="vertical-align:top; margin:4px">
+  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28px" style="vertical-align:top; margin:4px">
+  <img src="./icons/vsphere.svg" alt="vsphere" height="28px" style="vertical-align:top; margin:4px">
+  <img src="./icons/openstack.svg" alt="openstack" height="28px" style="vertical-align:top; margin:4px">
+</p>
