@@ -52,24 +52,16 @@
 
 #### Cloud
 
-<p align="left">
-  <img src="./icons/azure.svg" alt="azure" height="28">
-  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="56">
-  <img src="./icons/aws.svg" alt="aws" height="28">
-  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="56">
-  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28">
-  <img src="./icons/vsphere.svg" alt="vsphere" height="28">
-  <img src="./icons/openstack.svg" alt="openstack" height="28">
-</p>
+| Azure | 腾讯云 | AWS | 阿里云 | Google Cloud | VMware vSphere | OpenStack |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="./icons/azure.svg" alt="azure" height="32"> | <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="32"> | <img src="./icons/aws.svg" alt="aws" height="32"> | <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="32"> | <img src="./icons/google-cloud.svg" alt="google-cloud" height="32"> | <img src="./icons/vsphere.svg" alt="vsphere" height="32"> | <img src="./icons/openstack.svg" alt="openstack" height="32"> |
+| `Azure` | `Tencent Cloud` | `AWS` | `Alibaba Cloud` | `Google Cloud` | `vSphere` | `OpenStack` |
+
+<br>
 
 #### IaaS & PaaS
 
-<p align="left">
-  <img src="./icons/azure.svg" alt="azure" height="28">
-  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="28">
-  <img src="./icons/aws.svg" alt="aws" height="28">
-  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28">
-  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28">
-  <img src="./icons/vsphere.svg" alt="vsphere" height="28">
-  <img src="./icons/openstack.svg" alt="openstack" height="28">
-</p>
+| Azure | 腾讯云 | AWS | 阿里云 | Google Cloud | VMware vSphere | OpenStack |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="./icons/azure.svg" alt="azure" height="32"> | <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="32"> | <img src="./icons/aws.svg" alt="aws" height="32"> | <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="32"> | <img src="./icons/google-cloud.svg" alt="google-cloud" height="32"> | <img src="./icons/vsphere.svg" alt="vsphere" height="32"> | <img src="./icons/openstack.svg" alt="openstack" height="32"> |
+| `Azure` | `Tencent Cloud` | `AWS` | `Alibaba Cloud` | `Google Cloud` | `vSphere` | `OpenStack` |
