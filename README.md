@@ -34,6 +34,17 @@
 <br />
 
 ### Academic Ability
+- Invention Patent: [一种多终端多无人机分层调度辅助边缘计算资源分配方法](https://cpquery.cponline.cnipa.gov.cn/detail/index?zhuanlisqh=8x5aXikTaWvidHSvrrUcbg%253D%253D&anjianbh&searchType=1)
+- IEEE Paper: [Optimization of energy consumption with hybrid cooperative NOMA for secure MEC](https://ieeexplore.ieee.org/document/10062073)
+
+### Engineering Ability
+#### HomeLab Overview
+![](./images/overview1.png)
+![](./images/overview2.png)
+![](./images/overview3.png)
+
+#### HomeLab Network Logic Architecture
+
 ### Tech Stack
 
 ---
