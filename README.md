@@ -56,7 +56,7 @@
   <img src="./icons/azure.svg" alt="azure" height="24">
   <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="24">
   <img src="./icons/aws.svg" alt="aws" height="28">
-  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28">
+  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="30">
   <img src="./icons/google-cloud.svg" alt="google-cloud" height="28">
   <img src="./icons/vsphere.svg" alt="vsphere" height="28">
   <img src="./icons/openstack.svg" alt="openstack" height="28">
