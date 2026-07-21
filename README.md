@@ -22,7 +22,7 @@
 
 - As heaven's movement is ever vigorous, so must a gentleman ceaselessly strive along.
 
-- btw I use CachyOS. <img src="https://raw.githubusercontent.com/CachyOS/CachyOS-icons/refs/heads/master/Colored/CachyOS.svg" alt="CachyOS" height="22px" style="vertical-align: bottom; margin-left: 4px;">
+- btw I use CachyOS. <img src="https://raw.githubusercontent.com/CachyOS/CachyOS-icons/refs/heads/master/Colored/CachyOS.svg" alt="CachyOS" height="22px">
 
 <br />
 <br />
@@ -40,36 +40,36 @@
 #### Languages & Env
 
 <p align="left">
-  <img src="./icons/ansible.svg" alt="ansible" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/terraform.svg" alt="terraform" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/packer.svg" alt="packer" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/bash.svg" alt="bash" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/python.svg" alt="python" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/neovim.svg" alt="neovim" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/tmux.svg" alt="tmux" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/opencode.svg" alt="opencode" height="14px" style="vertical-align:top; margin:4px">
+  <img src="./icons/ansible.svg" alt="ansible" height="28">
+  <img src="./icons/terraform.svg" alt="terraform" height="28">
+  <img src="./icons/packer.svg" alt="packer" height="28">
+  <img src="./icons/bash.svg" alt="bash" height="28">
+  <img src="./icons/python.svg" alt="python" height="28">
+  <img src="./icons/neovim.svg" alt="neovim" height="28">
+  <img src="./icons/tmux.svg" alt="tmux" height="28">
+  <img src="./icons/opencode.svg" alt="opencode" height="14px">
 </p>
 
 #### Cloud
 
 <p align="left">
-  <img src="./icons/azure.svg" alt="azure" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/aws.svg" alt="aws" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/vsphere.svg" alt="vsphere" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/openstack.svg" alt="openstack" height="28" style="vertical-align:top; margin:4px">
+  <img src="./icons/azure.svg" alt="azure" height="28">
+  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="28">
+  <img src="./icons/aws.svg" alt="aws" height="28">
+  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28">
+  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28">
+  <img src="./icons/vsphere.svg" alt="vsphere" height="28">
+  <img src="./icons/openstack.svg" alt="openstack" height="28">
 </p>
 
 #### IaaS & PaaS
 
 <p align="left">
-  <img src="./icons/azure.svg" alt="azure" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/aws.svg" alt="aws" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/vsphere.svg" alt="vsphere" height="28" style="vertical-align:top; margin:4px">
-  <img src="./icons/openstack.svg" alt="openstack" height="28" style="vertical-align:top; margin:4px">
+  <img src="./icons/azure.svg" alt="azure" height="28">
+  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="28">
+  <img src="./icons/aws.svg" alt="aws" height="28">
+  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28">
+  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28">
+  <img src="./icons/vsphere.svg" alt="vsphere" height="28">
+  <img src="./icons/openstack.svg" alt="openstack" height="28">
 </p>
