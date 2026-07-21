@@ -54,7 +54,7 @@
 
 <p align="left">
   <img src="./icons/azure.svg" alt="azure" height="28">
-  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="28">
+  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="20">
   <img src="./icons/aws.svg" alt="aws" height="28">
   <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28">
   <img src="./icons/google-cloud.svg" alt="google-cloud" height="28">
