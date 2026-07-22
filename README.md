@@ -125,59 +125,69 @@ flowchart TD
 ```
 
 #### HomeLab Slave Site Physical Network Arch
-```mermaid
-graph TD
-    subgraph ServerA ["nj02j4125 (ESXi)"]
-        style ServerA fill:#f9f9f9,stroke:#333
-
+```
+flowchart TD
+    subgraph ServerA ["ServerA: nj02j4125 (ESXi)"]
         vSwitch0["vSwitch0<br>(Uplink: eth1)"]
         
         subgraph OPNsenseVM ["nj02propns01"]
-            style OPNsenseVM fill:#f0f8ff,stroke:#007bff
             OPN_WAN["WAN (来自 USB-MiFi)"]
-            OPN_LAN_Bridge["<b>LAN (Bridge)</b>"]
+            OPN_LAN_Bridge["LAN (Bridge)"]
             OPN_vNIC["vNIC (来自 OPN_PG)"]
             OPN_Passthrough["Passthrough eth2"]
         end
 
-        vmk0["vmk0 (管理口<br>192.168.21.20)"]
+        vmk0["vmk0 (管理口 192.168.21.20)"]
         OPN_PG["PortGroup (OPN_Link)"]
 
-        vSwitch0 -- 包含 --> vmk0
-        vSwitch0 -- 包含 --> OPN_PG
-        OPN_PG -- 虚拟连接 --> OPN_vNIC
-        OPN_vNIC -- 桥接 --> OPN_LAN_Bridge
-        OPN_Passthrough -- 桥接 --> OPN_LAN_Bridge
+        vSwitch0 --- vmk0
+        vSwitch0 --- OPN_PG
+        OPN_PG -. "虚拟连接" .-> OPN_vNIC
+        OPN_vNIC --- OPN_LAN_Bridge
+        OPN_Passthrough --- OPN_LAN_Bridge
     end
 
-    subgraph ServerB ["nj02x10dai (ESXi)"]
-        style ServerB fill:#f9f9f9,stroke:#333
+    subgraph ServerB ["ServerB: nj02x10dai (ESXi)"]
         vSwitch_Home["vSwitch_Home<br>(Uplink: eth0)"]
         vSwitch_Corp["vSwitch_Corp<br>(Uplink: eth1)"]
-        Home_VMs["*.nj02.wsy:pr 网段(192.168.21.0/24)"]
-        Corp_VMs["*.nj02.wsy:dev 网段(192.168.22.0/24)"]
+        Home_VMs["*.nj02.wsy:pr 网段<br>(192.168.21.0/24)"]
+        Corp_VMs["*.nj02.wsy:dev 网段<br>(192.168.22.0/24)"]
         
-        vSwitch_Home --> Home_VMs
-        vSwitch_Corp --> Corp_VMs
+        vSwitch_Home --- Home_VMs
+        vSwitch_Corp --- Corp_VMs
     end
 
-    subgraph PhysicalNet ["物理网络"]
+    subgraph PhysicalNet ["🌐 物理网络"]
         Internet["Internet"]
-        HomeLAN["nj02prwrt02 (Xiaomi AC2100)"]
-        CorpNet["公司内网"]
+        MiFi["MiFi (USB)"]
+        HomeLAN["nj02prwrt02<br>(Xiaomi AC2100)"]
+        CorpNet["🏢 公司内网"]
     end
 
     %% 逻辑连接
-    Internet --> MiFi["MiFi (USB)"] --> OPN_WAN
+    Internet --- MiFi
+    MiFi --- OPN_WAN
     
     %% OPNsense LAN 的两个出口
-    OPN_LAN_Bridge -- (通过 vNIC) --> vSwitch0
-    OPN_LAN_Bridge -- (通过 eth2) --> HomeLAN
+    OPN_LAN_Bridge -- "(通过 vNIC)" --> vSwitch0
+    OPN_LAN_Bridge -- "(通过 eth2)" --> HomeLAN
     
     %% vSwitch 的物理上联
-    vSwitch0 -- (Uplink eth1) --> HomeLAN
-    vSwitch_Home -- (Uplink eth0) --> HomeLAN
-    vSwitch_Corp -- (Uplink eth1) --> CorpNet
+    vSwitch0 -- "(Uplink eth1)" --> HomeLAN
+    vSwitch_Home -- "(Uplink eth0)" --> HomeLAN
+    vSwitch_Corp -- "(Uplink eth1)" --> CorpNet
+
+    %% 样式定义 (莫兰迪/马卡龙配色，兼容 GitHub 暗黑/亮色模式)
+    classDef serverA fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef opnVM fill:#bbdefb,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef serverB fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#000
+    classDef physNet fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+
+    %% 应用样式
+    class vSwitch0,vmk0,OPN_PG serverA
+    class OPN_WAN,OPN_LAN_Bridge,OPN_vNIC,OPN_Passthrough opnVM
+    class vSwitch_Home,vSwitch_Corp,Home_VMs,Corp_VMs serverB
+    class Internet,MiFi,HomeLAN,CorpNet physNet
 ```
 
 ### Tech Stack
