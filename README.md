@@ -199,6 +199,59 @@ flowchart TD
     class Internet,MiFi,HomeLAN,CorpNet physNet
 ```
 
+#### HomeLab DevSecOps Partial Design
+```mermaid
+graph TD
+    %% Styling
+    classDef source fill:#4CAF50,stroke:#388E3C,stroke-width:2px,color:#fff;
+    classDef ci fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff;
+    classDef sec fill:#F44336,stroke:#D32F2F,stroke-width:2px,color:#fff;
+    classDef artifact fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff;
+    classDef iac fill:#9C27B0,stroke:#7B1FA2,stroke-width:2px,color:#fff;
+    classDef deploy fill:#607D8B,stroke:#455A64,stroke-width:2px,color:#fff;
+
+    subgraph "1. Plan + Code (Version Control)"
+        G[Gitea<br/>Monorepo: IaC, Dotfiles, Apps]:::source
+    end
+
+    subgraph "2. Continuous Integration & Security (Shift-Left)"
+        GA[Gitea Actions<br/>Fast Checks & Linting]:::ci
+        J[Jenkins<br/>Heavy Builds & Orchestration]:::ci
+        Sec["(Security Scanning)<br/>tfsec, ansible-lint, secrets check"]:::sec
+        
+        G -->|Push / PR| GA
+        G -->|Webhook Trigger| J
+        GA -.-> Sec
+        J -.-> Sec
+    end
+
+    subgraph "3. Artifact Management"
+        AK[Artifact Keeper<br/>Docker Images, Binaries, ISOs]:::artifact
+        
+        GA -->|Push passing code| AK
+        J -->|Push built artifacts| AK
+    end
+
+    subgraph "4. Infrastructure as Code & Config"
+        P[Packer<br/>Golden Image Builds]:::iac
+        T[Terraform<br/>Resource Provisioning]:::iac
+        A[Ansible<br/>Configuration & Hardening]:::iac
+        
+        AK --> P
+        J -->|Trigger Pipeline| P
+        P -->|New Image ready| T
+        J -->|Trigger Deployment| T
+        T -->|Inventory Hand-off| A
+    end
+
+    subgraph "5. Operations & Target Environment"
+        Target[vSphere / ESXi Clusters<br/>nj01, nj02, dl01]:::deploy
+        
+        T -->|Atlantis Provisions VMs/Networks| Target
+        A -->|Deploys Services & Applies OS Configs| Target
+    end
+```
+
 ### Tech Stack
 
 ---
