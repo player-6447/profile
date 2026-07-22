@@ -41,10 +41,13 @@
 #### HomeLab Overview
 ![](./images/overview1.png)
 > L3 network and DNS interoperability
+
 ![](./images/overview2.png)
 > Gitops: gitea + terraform + atlantis
+
 ![](./images/overview3.png)
 > MkDocs + Jenkins hosted Markdown notes
+
 ![](./images/overview40.jpg)
 > Master site main compute node & ai node
 
