@@ -281,14 +281,13 @@ graph TD
   <img src="./icons/openstack.svg" alt="openstack" height="28">
 </p>
 
-#### IaaS & PaaS
+#### Cloud Native & BareMetal
 
 <p align="left">
-  <img src="./icons/azure.svg" alt="azure" height="28">
-  <img src="./icons/tencentcloud.svg" alt="tencentcloud" height="28">
-  <img src="./icons/aws.svg" alt="aws" height="28">
-  <img src="./icons/alibabacloud.svg" alt="alibabacloud" height="28">
-  <img src="./icons/google-cloud.svg" alt="google-cloud" height="28">
-  <img src="./icons/vsphere.svg" alt="vsphere" height="28">
-  <img src="./icons/openstack.svg" alt="openstack" height="28">
+  <img src="./icons/linux.svg" alt="linux" height="28">
+  <img src="./icons/docker.svg" alt="docker" height="28">
+  <img src="./icons/kubernetes.svg" alt="kubernetes" height="28">
+  <img src="./icons/haproxy.svg" alt="haproxy" height="28">
+  <img src="./icons/nginx.svg" alt="nginx" height="28">
+  <img src="./icons/keepalived.png" alt="keepalived" height="28">
 </p>
