@@ -42,11 +42,9 @@
 ![](./images/overview1.png)
 ![](./images/overview2.png)
 ![](./images/overview3.png)
+![](./images/overview40.jpg)
+> Master site main compute node & ai node
 
-<div style="display: flex; gap: 10px;">
-  <img src="./images/overview4.jpg" style="width: 50%;" />
-  <img src="./images/overview5.jpg" style="width: 50%;" />
-</div>
 
 #### HomeLab Network Logic Architecture
 ```mermaid
