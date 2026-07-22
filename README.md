@@ -125,7 +125,7 @@ flowchart TD
 ```
 
 #### HomeLab Slave Site Physical Network Arch
-```
+```mermaid
 flowchart TD
     subgraph ServerA ["ServerA: nj02j4125 (ESXi)"]
         vSwitch0["vSwitch0<br>(Uplink: eth1)"]
