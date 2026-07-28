@@ -290,5 +290,5 @@ graph TD
   <img src="./icons/haproxy.svg" alt="haproxy" height="28">
   <img src="./icons/nginx.svg" alt="nginx" height="28">
   <img src="./icons/keepalived.png" alt="keepalived" height="28">
-  <img src="./icons/windows.png" alt="windows" height="28">
+  <img src="./icons/windows.svg" alt="windows" height="28">
 </p>
