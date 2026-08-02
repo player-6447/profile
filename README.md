@@ -292,3 +292,11 @@ graph TD
   <img src="./icons/keepalived.png" alt="keepalived" height="28">
   <img src="./icons/windows.svg" alt="windows" height="28">
 </p>
+
+<p align="left">
+  <img src="./icons/gitea.svg" alt="gitea" height="28">
+  <img src="./icons/jenkins.svg" alt="jenkins" height="28">
+  <img src="./icons/gitlab.svg" alt="gitlab" height="28">
+  <img src="./icons/bitbucket.svg" alt="bitbucket" height="28">
+  <img src="./icons/bamboo.svg" alt="bamboo" height="28">
+</p>
