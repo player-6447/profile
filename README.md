@@ -300,3 +300,11 @@ graph TD
   <img src="./icons/bitbucket.svg" alt="bitbucket" height="28">
   <img src="./icons/bamboo.svg" alt="bamboo" height="28">
 </p>
+
+<p align="left">
+  <img src="./icons/oracle.svg" alt="oracle" height="24">
+  <img src="./icons/mysql.svg" alt="mysql" height="28">
+  <img src="./icons/postgresql.svg" alt="postgresql" height="28">
+  <img src="./icons/clickhouse.svg" alt="clickhouse" height="28">
+  <img src="./icons/mongodb.svg" alt="mongodb" height="28">
+</p>
