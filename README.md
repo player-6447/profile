@@ -307,4 +307,5 @@ graph TD
   <img src="./icons/postgresql.svg" alt="postgresql" height="28">
   <img src="./icons/clickhouse.svg" alt="clickhouse" height="28">
   <img src="./icons/mongodb.svg" alt="mongodb" height="28">
+  <img src="./icons/milvus.svg" alt="milvus" height="28">
 </p>
