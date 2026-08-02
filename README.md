@@ -294,7 +294,7 @@ graph TD
 </p>
 
 <p align="left">
-  <img src="./icons/gitea.svg" alt="gitea" height="28">
+  <img src="./icons/gitea.svg" alt="gitea" height="24">
   <img src="./icons/jenkins.svg" alt="jenkins" height="28">
   <img src="./icons/gitlab.svg" alt="gitlab" height="28">
   <img src="./icons/bitbucket.svg" alt="bitbucket" height="28">
