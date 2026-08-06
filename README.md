@@ -306,6 +306,12 @@ graph TD
   <img src="./icons/mysql.svg" alt="mysql" height="28">
   <img src="./icons/postgresql.svg" alt="postgresql" height="28">
   <img src="./icons/clickhouse.svg" alt="clickhouse" height="28">
+  <img src="./icons/elastic.svg" alt="elastic" height="28">
   <img src="./icons/mongodb.svg" alt="mongodb" height="28">
   <img src="./icons/milvus.svg" alt="milvus" height="28">
+</p>
+
+<p align="left">
+  <img src="./icons/ceph.svg" alt="ceph" height="28">
+  <img src="./icons/minio.svg" alt="minio" height="28">
 </p>
