@@ -266,6 +266,7 @@ graph TD
   <img src="./icons/python.svg" alt="python" height="28">
   <img src="./icons/neovim.svg" alt="neovim" height="28">
   <img src="./icons/tmux.svg" alt="tmux" height="28">
+  <img src="./icons/tailscale.svg" alt="tailscale" height="28">
   <img src="./icons/opencode.svg" alt="opencode" height="14px">
 </p>
 
